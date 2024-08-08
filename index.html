@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/output.css" />
+    <title>tailwindcss</title>
+  </head>
+  <body class="ffont">
+    <div class="container-satu w-screen h-screen bg-slate-500 grid">
+      <header
+        class="fixed h-[100px] w-screen bg-[#071952] grid grid-cols-[1fr_2fr_80px] items-center max-[1024px]:text-[15px]"
+      >
+        <div
+          class="text-center text-xl max-[768px]:w-72 max-[1024px]:ml-3 max-[1024px]:text-[15px] max-[768px]:text-[20px]"
+        >
+          <h2 class="text-[#EBF4F6]">
+            NABIL <span class="hover:text-[#37B7C3]">FIRDIANSYAH</span>
+          </h2>
+        </div>
+        <nav>
+          <ol
+            class="duration-700 ol flex flex-row justify-evenly w-full max-[768px]:absolute max-[768px]:top-[100px] max-[768px]:hidden max-[768px]:right-0 max-[768px]:flex-col max-[768px]:bg-white max-[768px]:h-screen max-[768px]:items-center max-[768px]:justify-start max-[768px]:gap-10 max-[768px]:w-28"
+          >
+            <li
+              class="inline-block w-20 h-8 text-[#EBF4F6] hover:text-[#37B7C3] hover:underline rounded text-center max-[768px]:mt-10 leading-8 max-[768px]:text-[#37B7C3]"
+            >
+              HOME
+            </li>
+            <li
+              class="inline-block w-20 h-8 text-[#EBF4F6] hover:text-[#37B7C3] hover:underline rounded text-center leading-8 max-[768px]:text-[#37B7C3]"
+            >
+              ABOUT
+            </li>
+            <li
+              class="inline-block w-20 h-8 text-[#EBF4F6] hover:text-[#37B7C3] hover:underline rounded text-center leading-8 max-[768px]:text-[#37B7C3]"
+            >
+              MENU
+            </li>
+            <li
+              class="inline-block w-20 h-8 text-[#EBF4F6] hover:text-[#37B7C3] hover:underline rounded text-center leading-8 max-[768px]:text-[#37B7C3]"
+            >
+              CONTACT
+            </li>
+          </ol>
+        </nav>
+        <section
+          class="span max-[768px]:flex max-[768px]:flex-col max-[768px]:gap-1 hidden mr-12"
+        >
+          <span class="w-7 h-1 bg-white block"></span
+          ><span class="w-7 h-1 bg-white block"></span
+          ><span class="w-7 h-1 bg-white block"></span>
+        </section>
+      </header>
+      <main
+        class="h-screen w-screen bg-gradient-to-b from-[#071952] to-[#37B7C3] via-[#088395] flex flex-row justify-between items-center"
+      >
+        <section
+          class="flex items-start flex-col justify-center text-[60px] text-[#EBF4F6] ml-36 max-[1400px]:text-[50px] max-[1400px]:ml-28 max-[1024px]:ml-16 max-[1024px]:text-[35px] max-[768px]:text-[28px] max-[768px]:ml-12 max-[576px]:text-[23px]"
+        >
+          <h2 class="block">HELLO MY NAME IS</h2>
+          <h2 class="block">HSKJKFJJSFJKJ</h2>
+          <div class="loader"></div>
+        </section>
+        <section
+          class="w-80 h-80 rounded-full mr-40 animate-bounce shadow-2xl shadow-slate-500 max-[1400px]:w-56 max-[1400px]:h-56 max-[1024px]:mr-24 max-[768px]:w-40 max-[768px]:h-40 max-[768px]:mr-24 max-[576px]:w-30 max-[576px]:h-30 max-[576px]:mr-14"
+        >
+          <img src="images.png" class="w-full h-full rounded-full" />
+        </section>
+      </main>
+    </div>
+    <div
+      class="w-screen h-screen bg-gradient-to-b from-[#37B7C3] to-[#071952] via-[#088395] flex items-end justify-center"
+    >
+      <div class="loader-dua"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
